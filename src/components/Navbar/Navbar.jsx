@@ -35,7 +35,7 @@ const Navbar = () => {
     </li>
 
     <button className='contact-btn' onClick={() => {}}>
-        Contactame
+        Contratame
     </button>
     </ul>
 

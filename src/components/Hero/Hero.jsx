@@ -31,9 +31,9 @@ const Hero = () => {
         <div className='tech-icon'>
         <img src='./assets/images/js.png' alt='' />
         </div> 
-     </div>   
+    </div>   
     </div>    
-   </section>
+</section>
   );
 };
 
