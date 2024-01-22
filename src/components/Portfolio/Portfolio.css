@@ -1,0 +1,129 @@
+.portfolio_container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 90%;
+   
+   
+    
+    
+
+}
+#portfolio{
+    margin-top: 5rem;
+}
+
+#portfolio h2{
+    color: #4db5ff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio_item{
+    background-color:  #212146;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(50px);
+
+}
+
+.portfolio_item:hover{
+    border-color:rgb(87, 95, 104);
+    background: transparent;
+
+}
+
+.portfolio_item-image{
+    display: flex;
+    justify-content:center;
+    gap: 2.5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    
+}
+
+.portfolio_item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    background-color: #4db5ff;
+    border-radius: 0.2rem;
+    border-color:rgb(87, 95, 104);
+    padding: 0.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    padding: 0.3rem 0.5rem;
+    
+
+}
+
+.btn-primary{
+    border-color:rgb(87, 95, 104);
+    background: transparent;
+    border-radius: 0.3rem;
+    border-width: 1px ;
+    border-style:groove;
+    color: #4db5ff;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    
+    
+}
+
+.btn:hover{
+    background: rgba(249, 248, 250, 0.959);
+}
+
+.btn-primary:hover{
+    background: rgba(249, 248, 250, 0.959);
+    color: black;
+}
+
+.portfolio_item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio_item-cta{
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+   .portfolio_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+   }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;    
+    width: 100%;
+    padding: 2rem 1rem;
+
+    
+    }
+}
+
+@media screen and (max-width: 768px){
+   
+}

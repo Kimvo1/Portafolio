@@ -22,21 +22,19 @@ const Navbar = () => {
 
     <ul>
     <li>
-        <a className='menu-item'>Inicio</a>
+        <a href='#hero' className='menu-item'>Inicio</a>
     </li>
     <li>
-        <a className='menu-item'>Habilidades</a>
-    </li>
-    <li>
-        <a className='menu-item'>Experiencia</a>
-    </li>
-    <li>
-        <a className='menu-item'>Contacto</a>
+    <a href="#habilidades" className='menu-item'>Habilidades</a>
     </li>
 
-    <button className='contact-btn' onClick={() => {}}>
-        Contratame
-    </button>
+    <li>
+        <a href='#portfolio' className='menu-item'>Portafolio</a>
+    </li>
+    <li>
+        <a href='#contact' className='menu-item'>Contacto</a>
+    </li>
+
     </ul>
 
     <button class='menu-btn' onClick={toggleMenu}>

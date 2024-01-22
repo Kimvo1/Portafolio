@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    width: 65rem;
+    width: 90%;
 }
 
 .habilidades_container > div {
@@ -54,6 +54,46 @@
 }
 
 #habilidades{
-    margin-top: 10rem;
+    margin-top: 5rem;
     
+}
+
+@media screen and (max-width: 1024px) {
+    .habilidades_container{
+        grid-template-columns: 1fr ;
+        width: 100%;
+    }
+
+    .habilidades_container > div{
+        width: 75%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .habilidades_content{
+        padding: 1rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 600px){
+    .habilidades_container{
+        gap: 1rem;
+
+    }
+
+    .habilidades_container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .habilidades_container{
+        width: 100%;
+    }
 }
