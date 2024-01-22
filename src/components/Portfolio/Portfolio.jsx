@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className="container portfolio_container">
             <article className='portfolio_item'>
             <div className="portfolio_item-image">
-                <img src='./assets/images/pokedex.JPG' alt="" />
+                <img src='./assets/images/pokedex.jpg' alt="" />
             </div>
             <h3>Api Pokedex</h3>
             <div className='portfolio_item-cta'>
@@ -21,7 +21,7 @@ const Portfolio = () => {
 
             <article className='portfolio_item'>
             <div className="portfolio_item-image">
-                <img src='./assets/images/api_movie.JPG' alt="" />
+                <img src='./assets/images/api_movie.jpg' alt="" />
             </div>
             <h3>Api Movie</h3>
             <div className='portfolio_item-cta'>
@@ -32,7 +32,7 @@ const Portfolio = () => {
 
             <article className='portfolio_item'>
             <div className="portfolio_item-image">
-                <img src='./assets/images/dashboard.JPG' alt="" />
+                <img src='./assets/images/dashboard.jpg' alt="" />
             </div>
             <h3>Dashboard</h3>
             <div className='portfolio_item-cta'>
@@ -43,7 +43,7 @@ const Portfolio = () => {
 
             <article className='portfolio_item'>
             <div className="portfolio_item-image">
-                <img src='./assets/images/to_do_list.JPG' alt="" />
+                <img src='./assets/images/to_do_list.jpg' alt="" />
             </div>
             <h3>To Do List</h3>
             <div className='portfolio_item-cta'>
